@@ -1,0 +1,250 @@
+@media(min-width: 1536px) {
+    .container {
+        max-width: 1125px !important;
+    }
+}
+
+@media(min-width: 1280px) {
+    .container {
+        max-width: 1125px !important;
+    }
+}
+
+@font-face {
+    font-family: 'Baloo';
+    src: url(../font/Baloo/Baloo-Regular.ttf);
+}
+
+header {
+    background: linear-gradient(to right, #4a6939, #84996e);
+    position: relative;
+    z-index: 10;
+}
+
+:root {
+    /* font-family: 'Poppins, sans-serif'; */
+    --primary-font: 'Poppins, sans-serif';
+    --secondary-font: 'Inter, sans-serif';
+    --four-font: 'Open Sans, sans-serif';
+    --five-font: 'Inter, sans-serif';
+    --six-font: 'Kumbh Sans, sans-serif';
+    --seven-font:'Istok Web, sans-serif';
+    font-family: var(--secondary-font);
+    background-color: #f9f3ee;
+}
+
+.hd-top {
+    padding-top: 47px;
+    padding-bottom: 11px;
+}
+
+.hd-top::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #E3E3E3;
+}
+
+.poppins {
+    font-family: var(--primary-font);
+}
+
+.baloo {
+    font-family: 'Baloo', cursive;
+}
+
+.open-sans {
+    font-family: var(--four-font);
+}
+
+.inter{
+    font-family: var(--five-font);
+}
+
+.kumbh-sans{
+    font-family: var(--six-font);
+}
+
+.istok-web{
+    font-family: var(--seven-font);
+}
+
+.search {
+    width: 525px;
+    padding: 12px 31px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.cart-account {
+    margin-left: 100px;
+    gap: 30px;
+}
+
+.cart-number {
+    background: #F80808;
+    width: 8px;
+    height: 8px;
+    font-size: 7px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+form {
+    margin-left: 100px;
+}
+
+.lang {
+    position: relative;
+    cursor: pointer;
+}
+
+.lang ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    padding: 5px 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+}
+
+.lang ul li {
+    padding: 8px 12px
+}
+
+.lang ul li a {
+    color: #333;
+    font-size: 14px;
+    display: block;
+}
+
+.lang ul li:hover {
+    background: #f5f5f5;
+}
+
+.lang:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu {
+    padding-top: 17px;
+    padding-bottom: 21px;
+}
+
+.menu>ul>li {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.menu>ul>li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 7px;
+    position: relative;
+    background-image: url('../images/Arrow 1.svg');
+    margin-left: 8px;
+    top: 0px;
+    right: 0px;
+}
+
+.menu>ul {
+    gap: 23px;
+}
+
+li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  border: 2px solid #F7F8FD;
+  border-radius: 10px;
+  padding: 10px 16px;
+  background: #f9faff;
+  width: fit-content;
+}
+
+.counter button {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter input.value {
+  width: 40px;
+  text-align: center;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+}
+
+.btn-cart{
+    padding: 17px 77px;
+    border-radius: 10px;
+}
+
+.btn-write{
+    padding: 6px 16px;
+    border-radius: 14px;
+    background-color: #4E7C32;
+}
+
+.btn-seeall{
+    padding: 2px 11px;
+}
+
+.btn-newsletter {
+    position: absolute;
+    right: 0px;
+    top: 55px;
+    transform: translateY(-50%);
+    background: #505F4E;
+    color: white;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-newsletter:hover {
+    background: #3F4D3F;
+}
+.space-y-2 li a{
+    font-family: var(--four-font);
+    font-weight: 400;
+}

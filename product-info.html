@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter&family=Istok+Web&family=Kumbh+Sans&family=Open+Sans&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/product-info.css">
+    <title>product-info</title>
+</head>
+
+<body>
+    <header>
+        <div class=" hd-top relative container mx-auto flex flex-wrap items-center justify-end ">
+            <form action="" class="Poppins bg-white">
+                <input type="text" placeholder="Suchen Sie nach Produkten, Marken und mehr"
+                    class=" search rounded w-full font-light outline-none w-full ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+
+            <div class="flex flex-wrap ml-[100px] ">
+                <div class="lang relative flex items-center gap-1 text-white">
+                    <span class="Poppins text-white">En</span>
+                    <img src="./assets/images/Arrow 1.svg" alt="Arrow">
+                    <ul>
+                        <li><a href="#">En</a></li>
+                        <li><a href="#">Vi</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="cart-account flex flex-wrap items-center ">
+                <div class="flex flex-wrap">
+                    <img src="./assets/images/User.png" alt="User">
+                    <span class="Poppins text-white">Account</span>
+                </div>
+
+                <div class="flex flex-wrap relative">
+                    <span class="relative">
+                        <img src="./assets/images/cart.png" alt="Cart">
+                        <span class="cart-number block text-white Poppins absolute">3</span>
+                    </span>
+                    <span class="Poppins text-white">Cart</span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="hd-bottom Poppins">
+            <nav class="menu relative">
+                <ul class="flex flex-wrap justify-center">
+                    <li><a href="#">Beleuchtung</a></li>
+                    <li><a href="#">Growbox</a></li>
+                    <li><a href="#">Dünger</a></li>
+                    <li><a href="#">Erde & Substrate</a></li>
+                    <li><a href="#">Töpfe & Behälter</a></li>
+                    <li><a href="#">Bewässerung</a></li>
+                    <li><a href="#">Pflanzen & Gärtnern</a></li>
+                    <li><a href="#">Lüftung & Klimaanlage</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-[107px]">
+        <section class="content-1 flex items-center gap-[230px]">
+            <div class="left">
+                <div class="flex flex-col items-center">
+                    <div class="mb-[63px] ">
+                        <img src="./assets/images/product img/product-5.png" alt="">
+                    </div>
+                    <div class="flex gap-[34px] justify-center">
+                        <div class="border rounded-lg p-2">
+                            <img src="./assets/images/product img/product-info-5.png" alt="">
+                        </div>
+                        <img src="./assets/images/product img/product-info-5.png" alt="">
+                        <img src="./assets/images/product img/product-info-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <h2 class="kumbh-sans font-bold text-[14px] uppercase text-[#4E7C32] mb-[20px]">Plant</h2>
+                <h1 class="kumbh-sans font-bold text-[44px] text-[#1D2025] mt-[23px]">Square cultivation pots<br>0.27 to
+                    2 litres</h1>
+                <p class="kumbh-sans font-medium text-[16px] text-[#68707D] mt-[32px]">Lorem Ipsum is simply dummy text
+                    of the
+                    printing and typesetting<br>
+                    industry. Lorem Ipsum has been the industry's standard dummy<br>
+                    text ever since the
+                </p>
+                <div class="flex items-center gap-[16px] mt-8 mb-[10px]">
+                    <span class="kumbh-sans font-bold text-3xl text-[#1D2025] ">$125.00</span>
+                    <span
+                        class="kumbh-sans font-bold text-[16px] text-[#505F4E] border rounded-sm bg-[#FFEDE0]">50%</span>
+                </div>
+                <span class="line-through kumbh-sans font-bold text-[16px] text-[#1D2025] mb-4">$250.00</span>
+                <div class="flex flex-wrap gap-[15px] mt-4">
+                    <div class="counter">
+                        <button class="minus">-</button>
+                        <input type="text" value="3" class="value">
+                        <button class="plus">+</button>
+                    </div>
+                    <button class="bg-[#4E7C32] btn-cart">
+                        <div class=" flex gap-[10px]">
+                            <img src="./assets/images/icon-cart 2.svg" alt="cart">
+                            <span class="text-white">Add to cart</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-2 mt-[162px]">
+            <div>
+                <h1 class="inter font-normal text-3xl text-[#4E7C32] mb-[5px]">Discription</h1>
+                <p class="inter font-light text-2xl leading-[100%] text-[#665345]">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem Ipsum has been the <br>
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of <br>
+                    type and scrambled i</p>
+            </div>
+
+            <div class="mt-[30px] mb-[57px]">
+                <h1 class="inter font-normal text-3xl text-[#4E7C32] mb-[5px]">About</h1>
+                <p class="inter font-light text-2xl leading-[100%] text-[#665345]">Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry. Lorem Ipsum has been the <br>
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of <br>
+                    type and scrambled i</p>
+            </div>
+
+            <div class="">
+                <div class="grid grid-cols-2 gap-[365px]">
+                    <div class=" content-left flex-wrap items-center">
+                        <div class="flex items-center">
+                            <img src="./assets/images/product img/product-5.png" alt="">
+                            <div class="flex">
+                                <img src="./assets/images/star (2) 1.svg" alt="star" class="w-8 h-8">
+                                <img src="./assets/images/star (2) 1.svg" alt="star" class="w-8 h-8">
+                                <img src="./assets/images/star (2) 1.svg" alt="star" class="w-8 h-8">
+                                <img src="./assets/images/star (2) 1.svg" alt="star" class="w-8 h-8">
+                                <img src="./assets/images/star (2) 1.svg" alt="star" class="w-8 h-8">
+                            </div>
+                        </div>
+
+                        <div class="evaluate mb-[155px]"> <!-- evaluate: đánh giá-->
+                            <div class="flex items-center gap-2">
+                                <span>1★</span>
+                                <div class="flex-1 h-2 bg-[#A2A0A0] rounded-sm">
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span>2★</span>
+                                <div class=" h-2 bg-[#D9D9D9] rounded-sm w-[10%]">
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span>3★</span>
+                                <div class="h-2 bg-[#D9D9D9] rounded-sm w-[10%]">
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span>4★</span>
+                                <div class="h-2 bg-[#D9D9D9] rounded-sm w-[10%]">
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-2">
+                                <span>5★</span>
+                                <div class="h-2 bg-[#D9D9D9] rounded-sm w-[10%]">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-[23px]">
+                                <span class="istok-web font-normal text-[16px] text-[#4E7C32]">Aman gupta</span>
+                                <div class="flex">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                </div>
+                            </div>
+                            <p class="istok-web font-normal text-[11px] text-[#665345]">I've been using this cleanser
+                                for
+                                about five or six months now and my acne <br>
+                                is almost completely gone. I really struggled for years with my skin and tried <br>
+                                everything possible but this is the only thing that managed to clear up my <br>
+                                skin. 100% recommend and will continue to use is for sure.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="content-right">
+                        <button class="btn-write text-white istok-web text-[14px] mb-[325px]">Write reviews</button>
+
+                        <div class="mb-[26px]">
+                            <div class="flex items-center gap-[23px]">
+                                <span class="istok-web font-normal text-[16px] text-[#4E7C32]">Aman gupta</span>
+                                <div class="flex">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                </div>
+                            </div>
+                            <p class="istok-web font-normal text-[11px] text-[#665345]">I've been using this cleanser
+                                for
+                                about five or six months now and my acne <br>
+                                is almost completely gone. I really struggled for years with my skin and tried <br>
+                                everything possible but this is the only thing that managed to clear up my <br>
+                                skin. 100% recommend and will continue to use is for sure.
+                            </p>
+                        </div>
+
+                        <div>
+                            <div class="flex items-center gap-[23px]">
+                                <span class="istok-web font-normal text-[16px] text-[#4E7C32]">Aman gupta</span>
+                                <div class="flex">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                    <img src="./assets/images/star (2) 1.svg" alt="" class="w-3 h-3">
+                                </div>
+                            </div>
+                            <p class="istok-web font-normal text-[11px] text-[#665345]">I've been using this cleanser
+                                for
+                                about five or six months now and my acne <br>
+                                is almost completely gone. I really struggled for years with my skin and tried <br>
+                                everything possible but this is the only thing that managed to clear up my <br>
+                                skin. 100% recommend and will continue to use is for sure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center items-center mt-9 mb-[94px]">
+                    <button class=" btn-seeall istok-web font-normal text-[12px] text-white bg-[#4E7C32] rounded-md">See
+                        all</button>
+                </div>
+            </div>
+
+
+    </main>
+
+    <section class="flex justify-center items-center py-20 bg-gradient-to-r from-[#faf7f2] via-[#f9f8f4] to-[#d7efdb]">
+        <div class="w-[900px] text-left">
+            <div class="mb-8">
+                <h2 class="text-4xl font-semibold text-[#505F4E]">Etwas abonnieren*</h2>
+                <div class="flex items-center mt-2">
+                    <span class="inline-block w-5 h-[2px] bg-[#505F4E] mr-3"></span>
+                    <h3 class="text-2xl font-semibold text-[#505F4E]">Unser Newsletter</h3>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-12">
+                <p class="text-gray-600 text-sm leading-relaxed max-w-[230px]">
+                    Get weekly update about our product on your email, no spam guaranteed we promise 🤞
+                </p>
+
+                <form class="relative">
+                    <div class="relative">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor"
+                            class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3 8.25v7.5A2.25 2.25 0 005.25 18h13.5A2.25 2.25 0 0021 15.75v-7.5M3 8.25l8.25 5.25L19.5 8.25" />
+                        </svg>
+
+                        <input type="email" placeholder="youremail123@gmail.com"
+                            class="w-[420px] py-4 pl-12 pr-36 text-sm rounded-md border border-gray-200 shadow-sm outline-none">
+                        <button type="submit" class="btn-newsletter">
+                            Abonnieren
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#083a2a] text-gray-300 text-sm">
+        <div class="max-w-7xl mx-auto px-8 py-12 grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div>
+                <p class="text-gray-200 mb-6 leading-relaxed open-sans font-normal">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+                <div class="flex space-x-5 text-white text-lg">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-white font-medium mb-4 text-sm uppercase tracking-wide">Um</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Kontaktiere Uns</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Über Uns</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Karriere</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Unternehmensinformationen</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white font-medium mb-4 text-sm uppercase tracking-wide">Hilfe</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Unsere Produzenten</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Zahlung</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Versand</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Stornierung & Rückgabe</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Verstoß Melden</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white font-medium mb-4 text-sm uppercase tracking-wide">Politik</h3>
+                <ul class="space-y-2 ">
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Rücknahmegarantie</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Nutzungsbedingungen</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Sicherheit</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Privatsphäre</a></li>
+                    <li><a href="#" class="hover:text-white open-sans font-normal">Seitenverzeichnis</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-600"></div>
+
+        <div class="bg-[#072f22] py-4">
+            <div
+                class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center text-gray-300 text-xs">
+                <p>2023 hood.de, Inc.</p>
+                <div class="flex items-center gap-3 my-3 md:my-0">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard"
+                        class="h-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa"
+                        class="h-5">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" class="h-5">
+                </div>
+                <div class="flex items-center gap-1 cursor-pointer hover:text-white transition">
+                    <span>Scroll to top</span>
+                    <span class="text-lg">↑</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
